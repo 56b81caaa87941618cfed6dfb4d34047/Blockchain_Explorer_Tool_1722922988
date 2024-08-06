@@ -4,5 +4,6 @@
     "project_description": "add an app to find new blockchain information",
     "creation_time": "2024-08-06 05:43:08.117022",
     "current_state": "The current state of the application has a navbar and a header",
-    "selected_starter_template_id": "quoty"
+    "selected_starter_template_id": "quoty",
+    "frontend_theme_prompt": "The image predominantly features a surreal, otherworldly landscape with a color scheme of vibrant pinks and purples, contrasting with the dark silhouettes of mountains and trees. The scene includes an enormous, vivid moon and smaller celestial bodies against a starry sky, emphasizing a fantastical and ethereal atmosphere."
 }
