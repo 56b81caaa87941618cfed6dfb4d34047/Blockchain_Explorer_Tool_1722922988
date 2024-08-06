@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1722922989", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Blockchain Explorer</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1722922989", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What is a blockchain explorer?", description: "A blockchain explorer is a tool that allows you to view and search data recorded on a blockchain network. It provides transparency into transactions, addresses, and other on-chain activity.", expanded: false },
+                { title: "How does your blockchain explorer work?", description: "Our explorer connects directly to nodes on the blockchain network, enabling real-time access to the latest data. It decodes and organizes raw data into an easy-to-read format.", expanded: false },
+                { title: "What blockchain networks do you support?", description: "Currently, we support exploration of Bitcoin, Ethereum, and other major blockchain platforms. We are constantly working to add support for more networks.", expanded: false },
+                { title: "Can I use your explorer to find new blockchain information?", description: "Yes, our explorer allows you to discover and analyze new on-chain data as it gets added to the blockchain in real-time. This can help you identify emerging trends and opportunities.", expanded: false },
             ],
         };
     },
