@@ -7,18 +7,18 @@ It contains three left aligned pieces of text:
 Vue.component("fixed_left_side_hero_component_1722922989", {
     template: `
     <section id="left-side-hero-component">
-    <div id="left-content" class="relative w-full lg:w-1/2 lg:fixed lg:inset-0 lg:overflow-y-auto no-scrollbar lg:rounded-r-[3rem] bg-white bg-slate-900">
+    <div id="left-content" class="relative w-full lg:w-1/2 lg:fixed lg:inset-0 lg:overflow-y-auto no-scrollbar lg:rounded-r-3xl bg-gradient-to-br from-pink-400 to-purple-600 bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg">
         <!-- Background Illustration -->
         <div id="bg-illustration" class="absolute top-0 -translate-y-64 left-1/2 -translate-x-1/2 blur-3xl pointer-events-none" aria-hidden="true">
             <img class="max-w-none" src="./images/bg-illustration.svg" width="785" height="685" alt="Bg illustration">
         </div>
-        <div class="min-h-full w-full max-w-xl mx-auto flex px-4 sm:px-6 pt-36 pb-20 lg:py-20">
-            <div class="min-h-full w-full max-w-xl mx-auto flex flex-col justify-start px-4 sm:px-6 pt-36 pb-20 lg:py-20 flex-1" id="quote-header">
+        <div class="min-h-full w-full max-w-xl mx-auto flex px-6 pt-36 pb-20 lg:py-20">
+            <div class="min-h-full w-full max-w-xl mx-auto flex flex-col justify-start px-6 pt-36 pb-20 lg:py-20 flex-1" id="quote-header">
                 <div class="grow flex flex-col justify-center" id="quote-content">
-                    <div class="space-y-3" id="quote-container">
-                        <div id="quote-title" class="font-caveat text-3xl text-blue-500">Discover the Latest in Blockchain</div>
-                        <h1 id="company-name" class="h1 font-orbiter font-bold text-white">The Blockchain Explorer</h1>
-                        <time id="quote-date" class="block font-caveat text-xl text-slate-400">Stay ahead of the curve with cutting-edge blockchain data and insights.</time>
+                    <div class="space-y-4 rounded-xl bg-white bg-opacity-20 backdrop-filter backdrop-blur-md p-6 shadow-lg hover:bg-opacity-30 transition duration-300" id="quote-container">
+                        <div id="quote-title" class="font-caveat text-3xl text-pink-200">Discover the Latest in Blockchain</div>
+                        <h1 id="company-name" class="h1 font-orbiter font-bold text-white text-4xl">The Blockchain Explorer</h1>
+                        <time id="quote-date" class="block font-caveat text-xl text-purple-100">Stay ahead of the curve with cutting-edge blockchain data and insights.</time>
                     </div>
                 </div>
             </div>
